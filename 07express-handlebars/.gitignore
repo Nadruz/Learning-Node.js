@@ -1,0 +1,37 @@
+# Dependências do Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Logs
+logs/
+*.log
+logs/*.log
+debug.log
+error.log
+
+# Diretórios de build
+dist/
+build/
+.out/
+
+# Variáveis de ambiente
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Arquivos do Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
