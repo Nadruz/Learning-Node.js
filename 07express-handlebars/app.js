@@ -11,8 +11,16 @@ app.set('view engine', 'handlebars');
 
 // Rotas
 app.get ('/', function(req, res){
-    res.render('inicio');
+
+    let pessoas = [
+        {"nome":"Juliana", "idade":20},
+        {"nome":"Julia", "idade":23},
+        {"nome":"Julianne", "idade":40}
+    ]
+
+    res.render('inicio', {gostandoDeNode:true, dados:pessoas});
 });
+
 app.get ('/sobre', function(req, res){
     res.render('sobre');
 });
